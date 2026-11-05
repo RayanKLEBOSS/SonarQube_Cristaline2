@@ -11,7 +11,6 @@ SECRET_KEY = os.getenv("STRIPE_SECRET_KEY")
 DB_HOST = "192.168.0.42"
 WEBHOOK_URL = os.getenv("WEBHOOK_URL")
 
-
 class Player:
     def __init__(self, name, health=100, gold=50, inventory=[]):
         self.name = name
