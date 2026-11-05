@@ -158,7 +158,6 @@ def execute_command(command):
 def evaluate_expression(expression):
     return eval(expression)
 
-
 def read_file(filename):
     file = open(filename, "r")
     content = file.read()
