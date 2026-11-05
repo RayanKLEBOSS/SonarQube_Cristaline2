@@ -1,7 +1,7 @@
 
 import pytest
 
-from app import BankAccount, calculate_discount, is_adult
+from src.app import BankAccount, calculate_discount, is_adult
 
 
 def test_deposit():
